@@ -44,54 +44,50 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.main_page, .page_2 {
+.main_page {
     margin: 0 auto;
-    width: 1200px;
+    width: 1000px;
     background-color: rgb(255, 255, 255);
     text-align: center;
 }
-.main_page h1, .page_2 h1 {
+.main_page h1 {
     text-align: center;
     font-size: 55px;
     text-transform: uppercase;
     background-color: rgb(23, 23, 76);
     color: rgb(255, 255, 255);
     padding: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
 }
-.block_1 h2, .block_2 h3 {
+.block h2, .block h3 {
     text-align: center;
-    font-size: 40px;
-    height: 50px;
+    font-size: 35px;
     margin-top: 15px;
     text-transform: uppercase;  
-    padding: 40px;
+    padding: 30px 40px;
 }
 .block_header {
     text-align: left;
     font-weight: 600;
-    font-size: 3ch;
+    font-size: 18 px;
     margin-bottom: 10px;
+    margin: 0 0 20px 30px;
 }
 
 .block_text {
     text-indent: 10px;
-    margin-right: 350px;
     line-height: 20px;
-    line-break: strict;
     text-align: justify;
-    font-size: 2.5ch;
+    font-size: 18px;
 }
 
-.img_1, .img_2, .img_3, .img_4{
-    width: 83%;
+.img {
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.link_2{
-    font-size: 2.5ch;
+.link_2 {
+    font-size: 18px;
     color: black;
     text-align: center;
 }
