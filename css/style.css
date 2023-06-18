@@ -19,7 +19,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: top;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -46,18 +46,10 @@ table {
 }
 .main_page {
     margin: 0 auto;
-    width: 1000px;
+    width: 1200px;
     background-color: rgb(255, 255, 255);
-    text-align: center;
 }
-.main_page h1 {
-    text-align: center;
-    font-size: 55px;
-    text-transform: uppercase;
-    background-color: rgb(23, 23, 76);
-    color: rgb(255, 255, 255);
-    padding: 40px;
-}
+
 .block h2, .block h3 {
     text-align: center;
     font-size: 35px;
@@ -68,7 +60,7 @@ table {
 .block_header {
     text-align: left;
     font-weight: 600;
-    font-size: 18 px;
+    font-size: 30 px;
     margin-bottom: 10px;
     margin: 0 0 20px 30px;
 }
@@ -86,8 +78,165 @@ table {
     margin-bottom: 10px;
 }
 
-.link_2 {
+.link_2, .link_1 {
     font-size: 18px;
     color: black;
+}
+.button-block, a{
+    color: white;
+}
+
+.header-block {
+    background: rgb(20, 20, 110);
+    color: white;
+    padding: 20px 0;
+}
+
+.header-block a{
+    text-decoration: none;
+}
+
+.logo {
+width: 100px;
+}
+
+.header-list{
+    width: 1000px;
+    font-size: 0;
     text-align: center;
+}
+
+.header-list li{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.header-list li + li{
+    margin-left: 20px;
+}
+
+
+.button-block{
+    width: 100px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.header-list, .button-block, .logo{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle ;
+
+}
+
+.header-block .header{
+    font-size: 0;
+}
+///////////////////////////////////////
+
+* {
+box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.box-top {
+    background: rgba(193, 247, 255, 0.669);
+    font-size: 0;
+}
+
+.box-top > div {
+    outline: 2px solid;
+    width: 400px;
+    display: inline-block;
+    font-size: 18px;
+    height: 400px;
+}
+
+.fz-0{
+    font-size: 0;
+}
+
+.fz-20{
+    font-size: 20px;
+}
+
+.w-400{
+    width: 400px;
+}
+
+.w-800{
+    width: 800px;
+}
+
+.h-100{
+    height: 100px;
+}
+
+.h-133{
+    height: 133.33px;
+}
+.h-200{
+    height: 200px;
+}
+
+.h-400{
+    height: 400px;
+}
+
+.outline{
+    outline: 2px solid;
+    outline-color: white;
+}
+
+.d-inlign-block {
+    display: inline-block;
+}
+
+.bg{
+    background: rgba(92, 160, 238, 0.723);
+}
+
+.box-center {
+    font-size: 0;
+    background: rgba(242, 242, 149, 0.776);
+
+}
+.box-center > div + div{
+    width: 400px;
+} 
+
+.box{
+    width: 1200px;
+    margin: 0 auto;
+    margin: 20px;
+}
+
+.bg-yellow {
+    background: rgb(238, 171, 78);
+}
+
+.bg-green{
+    background: rgba(134, 217, 122, 0.772);
+}
+
+.text-formate{
+    text-align: justify;
+    color: beige;
+    line-height: 1.5;
+    text-indent: 15px;
+    overflow-y: hidden;
+    padding: 5px 5px 5px 5px;
+}
+.img-box {
+   margin: 0 auto;
+}
+.link-box{
+    color: rgb(58, 197, 197);
+    
 }
