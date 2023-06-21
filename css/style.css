@@ -137,9 +137,6 @@ width: 100px;
 }
 ///////////////////////////////////////
 
-* {
-box-sizing: border-box;
-}
 
 html, body {
     scroll-behavior: smooth;
@@ -147,7 +144,6 @@ html, body {
 
 .box-top {
     background: rgba(193, 247, 255, 0.669);
-    font-size: 0;
 }
 
 .box-top > div {
@@ -158,9 +154,6 @@ html, body {
     height: 400px;
 }
 
-.fz-0{
-    font-size: 0;
-}
 
 .fz-20{
     font-size: 20px;
@@ -190,12 +183,8 @@ html, body {
 }
 
 .outline{
-    outline: 2px solid;
-    outline-color: white;
-}
-
-.d-inlign-block {
-    display: inline-block;
+    outline: 1px solid;
+    outline-color: rgb(252, 252, 252);
 }
 
 .bg{
@@ -214,7 +203,6 @@ html, body {
 .box{
     width: 1200px;
     margin: 0 auto;
-    margin: 20px;
 }
 
 .bg-yellow {
@@ -227,7 +215,7 @@ html, body {
 
 .text-formate{
     text-align: justify;
-    color: beige;
+    color: rgb(0, 0, 0);
     line-height: 1.5;
     text-indent: 15px;
     overflow-y: hidden;
@@ -238,5 +226,16 @@ html, body {
 }
 .link-box{
     color: rgb(58, 197, 197);
-    
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clr{
+    clear: both;
 }
